@@ -15,7 +15,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 logging.basicConfig(level=logging.INFO)
 
 # States for conversation
-FLIGHT_ORIGIN, FLIGHT_DEST, FLIGHT_DATE = range(3)
+FLIGHT_ORIGIN, FLIGHT_DEST, FLIGHT_DATE = range(5)
 HOTEL_LOCATION, HOTEL_CHECKIN, HOTEL_CHECKOUT = range(3, 6)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
